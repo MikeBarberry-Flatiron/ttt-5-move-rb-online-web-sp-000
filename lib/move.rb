@@ -14,7 +14,7 @@ end
 
 # write input into array
 def move(array, index, value="X")
-  array.push[index] = value
+  array[index] = value
 end
 
 # code your input_to_index and move method here!
