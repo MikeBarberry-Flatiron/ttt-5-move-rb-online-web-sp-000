@@ -10,8 +10,10 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe"
 puts "Where would you like to go?"
 
-input_to_index(gets.strip)
+input = gets.strip
+
+index = input_to_index(input)
 
 display_board(board)
 
-move(board,input_to_index(gets.strip))
+move(board,index)
